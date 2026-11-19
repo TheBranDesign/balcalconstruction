@@ -96,7 +96,7 @@ The design language moves away from generic contractor templates and embraces th
 - **HTML5:** Semantic, accessible markup with ARIA landmarks and roles.
 - **CSS3:** Modern CSS custom properties, Flexbox, CSS Grid, clamp() fluid typography, and GPU-accelerated keyframe animations. Zero heavy frameworks.
 - **Vanilla JavaScript (ES6+):** Ultra-performant, 60fps animations utilizing `IntersectionObserver` for scroll reveals and counter triggers.
-- **Vector Assets:** Custom architectural SVG monogram & logo mark in `assets/logo.svg`.
+- **Vector Assets:** Custom architectural SVG monogram & logo mark in `./logo.svg`.
 - **Zero Build Dependencies:** Works out of the box in any browser or static hosting environment.
 
 ---
@@ -105,27 +105,27 @@ The design language moves away from generic contractor templates and embraces th
 
 ```
 BalCal-Construction-Redesign/
-├── index.html                   # Main semantic webpage
-├── styles.css                   # Complete design system & responsive styling
-├── script.js                    # Interactive logic, modals, gallery & animations
-├── README.md                    # Project presentation dossier & deployment instructions
-└── assets/                      # Curated high-resolution imagery & SVG vector logo
-    ├── logo.svg                 # Architectural BalCal vector logo
-    ├── balcal-original-logo.jpg # Original archive logo from existing website
-    ├── hero-architecture.jpg    # Fullscreen cinematic hero image
-    ├── project-hutchins-residence.jpg
-    ├── project-thomas-george-winery.jpg
-    ├── project-ark-commercial.jpg
-    ├── project-craftsmanship-millwork.jpg
-    ├── project-napa-hillside-estate.jpg
-    ├── project-heritage-restoration.jpg
-    ├── service-residential.jpg
-    ├── service-commercial.jpg
-    ├── service-craftsmanship.jpg
-    ├── napa-valley-landscape.jpg
-    ├── team-max-ballines.jpg
-    ├── team-cruz-calderon.jpg
-    └── team-luis-ballines.jpg
+├── index.html                        # Main semantic webpage
+├── styles.css                        # Complete design system & responsive styling
+├── script.js                         # Interactive logic, modals, gallery & animations
+├── README.md                         # Presentation dossier & deployment instructions
+├── server.ps1                        # Local HTTP development server utility
+├── logo.svg                          # Architectural BalCal vector logo
+├── balcal-original-logo.jpg          # Original archive logo from existing website
+├── hero-architecture.jpg             # Fullscreen cinematic hero image
+├── project-hutchins-residence.jpg
+├── project-thomas-george-winery.jpg
+├── project-ark-commercial.jpg
+├── project-craftsmanship-millwork.jpg
+├── project-napa-hillside-estate.jpg
+├── project-heritage-restoration.jpg
+├── service-residential.jpg
+├── service-commercial.jpg
+├── service-craftsmanship.jpg
+├── napa-valley-landscape.jpg
+├── team-max-ballines.jpg
+├── team-cruz-calderon.jpg
+└── team-luis-ballines.jpg
 ```
 
 ---

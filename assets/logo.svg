@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" width="340" height="70" fill="none">
+  <!-- Geometric Architectural Monogram -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Shield / Architectural Framing -->
+    <rect x="0" y="0" width="50" height="50" rx="4" fill="#14171d" stroke="#c5a059" stroke-width="1.75"/>
+    <rect x="5" y="5" width="40" height="40" rx="2" fill="none" stroke="rgba(197, 160, 89, 0.35)" stroke-width="1" stroke-dasharray="3 2"/>
+    
+    <!-- Stylized Interlocking B & C Geometry -->
+    <path d="M16 14 H28 C33 14 36 17 36 21 C36 24 33 26 30 27 C34 28 37 31 37 36 C37 40 33 43 27 43 H16 V14 Z" fill="none" stroke="#f5f5f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M16 27 H28" stroke="#f5f5f7" stroke-width="1.75"/>
+    <!-- Bronze Architectural Axis / Compass Line -->
+    <line x1="16" y1="10" x2="16" y2="47" stroke="#c5a059" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="28" cy="27" r="2.5" fill="#c5a059"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(74, 15)">
+    <!-- Primary Name -->
+    <text x="0" y="22" font-family="'Cinzel', 'Playfair Display', 'Times New Roman', serif" font-size="22" font-weight="700" letter-spacing="4" fill="#ffffff">
+      BAL<tspan fill="#c5a059">CAL</tspan>
+    </text>
+    <!-- Subtitle / Discipline -->
+    <text x="1" y="38" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="9" font-weight="600" letter-spacing="3.5" fill="#a1a1aa">
+      CONSTRUCTION, INC.
+    </text>
+    <!-- Geographical Heritage -->
+    <text x="1" y="49" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="7.5" font-weight="500" letter-spacing="2" fill="#c5a059">
+      NAPA VALLEY • EST. 2006
+    </text>
+  </g>
+</svg>
